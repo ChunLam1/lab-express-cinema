@@ -1,8 +1,38 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(/images/cinema.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+#CheckMovies {
+  font-size: 20px;
+  border-radius: 70px;
+  background-color: white;
+  color: #76a5b4;
+  padding: 15px 30px;
+  border: 0px;
+  position: absolute;
+  left: 900px;
+  top: 450px;
+  box-shadow: 2px 3px 2px black;
+}
+#CheckMovies:hover {
+  color: navy;
+  cursor: pointer;
+  box-shadow: none;
+}
+.CineIron {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  left: 900px;
+  top: 110px;
+  padding-top: 0px;
 }
