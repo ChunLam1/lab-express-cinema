@@ -1,6 +1,5 @@
 // To insert in "seeds/movies.seed.js"
-require("../config/index");
-
+require("../db/index");
 const Movie = require("../models/Movie.model");
 
 const movies = [

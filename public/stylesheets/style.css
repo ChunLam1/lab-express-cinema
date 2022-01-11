@@ -1,6 +1,11 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.BackG{
+  
   background-image: url(/images/cinema.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,4 +40,13 @@ a {
   left: 900px;
   top: 110px;
   padding-top: 0px;
+}
+.container  {
+   flex-direction: column; 
+  flex-wrap: wrap; 
+  display: flex; 
+  gap: 50px 200px;
+  justify-content: space-evenly;
+  flex-direction: row; 
+  text-align: center;
 }
